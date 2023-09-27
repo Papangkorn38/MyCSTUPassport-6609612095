@@ -47,3 +47,11 @@
         height: 250px;
         object-fit: cover;
     }
+    .acttivity img
+    {
+        width: 400px;
+        height: 330px;
+        object-fit: cover;
+        padding: 10px 10px 10px 10px;
+        border: #333 3px;
+    }
