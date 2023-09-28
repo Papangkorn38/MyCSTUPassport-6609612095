@@ -18,6 +18,12 @@
         position: fixed;
         width: 100%;
     }
+    .text1
+    {
+        color: #fff;
+        font-family:'angsana new';
+        font-size: 30px;
+    }
     .logo a{
         font-size: 1rem;
         color: #fff;
@@ -36,25 +42,38 @@
         text-decoration: none;
     }
     body{
-        background-color:#fff ;
+        background-color:black ;
     }
     
     h1{
-        color: blue;
+        color: wheat;
         font-family: 'Lucida Sans';
         font-size: 40px;
     }
-    p{
-        color:rgb(54, 53, 53) ;
-        font-family:'angsana new';
-        font-size: 30px;
+    .gallery
+    {
+    }
+    .gallery2
+    {
+        margin-right: 50px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row-reverse;
     }
     .gallery img{
-        border-radius: 100%;
-        width: 300px;
-        height: 250px;
-        object-fit: cover;
+        width: 400px;
+        height: 600px;
+        object-fit: scale-down;
         margin-top: 5px;
+    }
+    .gallerytext
+    {
+        margin-left: 20px;
+        margin-top: -600px;
+        margin-bottom: 450px;
+        color: #fff;
+        font-family:'angsana new';
+        font-size: 30px;
     }
     .activity
     {
@@ -165,4 +184,7 @@
         position: absolute;
         margin-top: -40px;
         margin-left: 12px;
+    }
+    #myVideo {
+        transform: rotate(270deg); 
     }
