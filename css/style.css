@@ -10,6 +10,14 @@
         display: flex;
         justify-content: space-between;
     }
+    nav1{
+        padding :1rem;
+        background-color:#333;
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        width: 100%;
+    }
     .logo a{
         font-size: 1rem;
         color: #fff;
@@ -30,6 +38,7 @@
     body{
         background-color:#fff ;
     }
+    
     h1{
         color: blue;
         font-family: 'Lucida Sans';
@@ -48,24 +57,27 @@
         object-fit: cover;
         margin-top: 5px;
     }
-    .acttivity
+    .activity
     {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        justify-content: space-around;
+        max-width: 100%;
+        margin: 0 auto;
     }
-    .acttivity < div
+    .act
     {
-        background-color: aquamarine;
+        margin-top: -400px;
+        text-align: center;
+        position: relative;
+        color: #fff;
     }
-    .acttivity div img
+    .activity img
     {
         width: 450px;
         height: 330px;
         object-fit: cover;
-        padding: 10px 10px 10px 10px;
-        border: #333 3px;
-        
+        box-shadow: 0 0 5px grey;
     }
     .advisor img
     {
@@ -86,4 +98,33 @@
         height: 200px;
         object-fit: cover ;
         padding: 10px 10px 10px 10px;
+    }
+    .kave
+    {
+        width: 100%;
+        height: 550px;
+        background-size:cover ;
+        background-position: center;
+        background-image: url("../photo/con_kave.png");
+        display: flex;
+        flex-direction: column;
+    }
+    .textact
+    {
+        color: #fff;
+        z-index: 1000;
+        font-size: 30px;
+        position: absolute;
+        margin-top: -40px;
+        margin-left: 12px;
+    }
+    .bodybg
+    {
+        background-color: black;
+        width: 100%;
+        height: 900px;
+    }
+    figcaption
+    {
+        margin-top: 10px;
     }
