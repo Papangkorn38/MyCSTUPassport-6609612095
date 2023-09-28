@@ -46,14 +46,26 @@
         width: 300px;
         height: 250px;
         object-fit: cover;
+        margin-top: 5px;
     }
-    .acttivity img
+    .acttivity
     {
-        width: 400px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .acttivity < div
+    {
+        background-color: aquamarine;
+    }
+    .acttivity div img
+    {
+        width: 450px;
         height: 330px;
         object-fit: cover;
         padding: 10px 10px 10px 10px;
         border: #333 3px;
+        
     }
     .advisor img
     {
