@@ -188,3 +188,24 @@
     #myVideo {
         transform: rotate(270deg); 
     }
+    .csf
+    {
+        width: 100%;
+        height: 600px;
+        background-size:cover ;
+        background-position-y: center ;
+        background-image: url("../photo/circle.jpg");
+        display: flex;
+        flex-direction: column; 
+    }
+    .cscon
+    {
+        width: 100%;
+        height: 600px;
+        background-size:cover ;
+        background-position-y: center ;
+        background-image: url("../photo/sci_con.png");
+        display: flex;
+        flex-direction: column; 
+    }
+    
