@@ -60,7 +60,13 @@
         display: flex;
         flex-direction: row-reverse;
     }
-    .gallery img{
+    .gallery_img{
+        width: 400px;
+        height: 600px;
+        object-fit: scale-down;
+        margin-top: 5px;
+    }
+    .gallery_img img{
         width: 400px;
         height: 600px;
         object-fit: scale-down;
@@ -70,10 +76,13 @@
     {
         margin-left: 20px;
         margin-top: -600px;
-        margin-bottom: 450px;
         color: #fff;
         font-family:'angsana new';
         font-size: 30px;
+    }
+    .gallery_video
+    {
+        margin-top: 490px;
     }
     .activity
     {
@@ -209,4 +218,18 @@
         display: flex;
         flex-direction: column; 
     }
-    
+    @media only screen and (max-width: 750px) {
+        .gallery2{
+            display: flex ;
+            flex-direction: column;
+        }
+        .gallery_img img
+        {
+            margin-top: 70%;
+            margin-left: 9%;
+        }
+        .gallery_video
+        {
+            margin-top: 700px;
+        }
+      }
