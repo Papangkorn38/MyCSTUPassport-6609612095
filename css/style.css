@@ -92,10 +92,11 @@
     }
     .activity img
     {
-        width: 450px;
-        height: 330px;
+        width: 97%;
+        height: auto;
         object-fit: cover;
         box-shadow: 0 0 5px grey;
+        margin-right: 5px;
     }
     .advisor img
     {
@@ -171,8 +172,8 @@
     }
     .orienta img
     {
-        width: 450px;
-        height: 330px;
+        width: 97%;
+        height: auto;
         object-fit: cover;
         box-shadow: 0 0 5px grey;
     }
