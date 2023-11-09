@@ -219,29 +219,63 @@
     @media only screen and (max-width: 400px) /*iphone*/
     {
         .gallery2{
+            margin-right: 0;
             display: flex ;
             flex-direction: column;
+            align-items: center;
+        }
+        .gallerytext h1
+        {
+            font-size: 35px;
+        }
+        .gallerytext
+        {
+            margin-left: 0;
+            display: flex ;
+            flex-direction: column;
+            align-items: center;
+            font-size: 20px;
+        }
+        .gallery_img
+        {
+            display: flex ;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
         }
         .gallery_img img
         {
-            margin-top: 75%;
-            margin-left: 2%;
+            margin-top: 50%;
+            width: 200px;
+            height: 300px;
         }
         .gallery_video
         {
-            margin-top: 700px;
+            margin-top: 380px;
+        }
+        video
+        {
+            width: 200px;
+            height: 100%;
         }
       }
     @media only screen and (max-width: 769px) and (min-width :767px) /*ipad*/
     {
         .gallery2{
+            margin-right: 0;
             display: flex ;
             flex-direction: column;
         }
+        .gallery_img
+        {
+            display: flex ;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
         .gallery_img img
         {
-            margin-top: 60%;
-            margin-left: 9%;
+            margin-top: 30%;
         }
         .gallery_video
         {
