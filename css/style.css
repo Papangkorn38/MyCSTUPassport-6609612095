@@ -195,9 +195,6 @@
         margin-top: -40px;
         margin-left: 12px;
     }
-    #myVideo {
-        transform: rotate(270deg); 
-    }
     .csf
     {
         width: 100%;
@@ -218,7 +215,8 @@
         display: flex;
         flex-direction: column; 
     }
-    @media only screen and (max-width: 750px) {
+    @media only screen and (max-width: 768px) /*ipad*/
+        {
         .gallery2{
             display: flex ;
             flex-direction: column;
@@ -233,3 +231,19 @@
             margin-top: 700px;
         }
       }
+    @media only screen and(max-width: 390px) and (min-width : 844px) /*iphone*/
+    {
+        .gallery2{
+            display: flex ;
+            flex-direction: column;
+        }
+        .gallery_img img
+        {
+            margin-top: 70%;
+            margin-left: 9%;
+        }
+        .gallery_video
+        {
+            margin-top: 100px;
+        }
+    }
